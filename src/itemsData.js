@@ -1,0 +1,136 @@
+const itemsData = [
+  {
+    id: 1,
+    title: "קוטג 5%",
+    count: 0,
+    image: process.env.PUBLIC_URL + "/images/1.jpg",
+  },
+  {
+    id: 2,
+    title: "סקי 5%",
+    count: 0,
+    image: process.env.PUBLIC_URL + "/images/2.jpg",
+  },
+  {
+    id: 3,
+    title: "סקי 3%",
+    count: 0,
+    image: process.env.PUBLIC_URL + "/images/3.jpg",
+  },
+  {
+    id: 4,
+    title: "סקי 9%",
+    count: 0,
+    image: process.env.PUBLIC_URL + "/images/4.jpg",
+  },
+  {
+    id: 5,
+    title: "סקי 500גרם",
+    count: 0,
+    image: process.env.PUBLIC_URL + "/images/5.jpg",
+  },
+  {
+    id: 6,
+    title: "סקי 750גרם",
+    count: 0,
+    image: process.env.PUBLIC_URL + "/images/6.jpg",
+  },
+  {
+    id: 7,
+    title: "סימפוניה טבעי",
+    count: 0,
+    image: process.env.PUBLIC_URL + "/images/7.jpg",
+  },
+  {
+    id: 8,
+    title: "סימפוניה זיתים",
+    count: 0,
+    image: process.env.PUBLIC_URL + "/images/8.jpg",
+  },
+  {
+    id: 9,
+    title: "סימפוניה בצל",
+    count: 0,
+    image: process.env.PUBLIC_URL + "/images/9.jpg",
+  },
+  {
+    id: 10,
+    title: "סימפוניה שום",
+    count: 0,
+    image: process.env.PUBLIC_URL + "/images/10.jpg",
+  },
+  {
+    id: 11,
+    title: "דניאלה וניל",
+    count: 0,
+    image: process.env.PUBLIC_URL + "/images/11.jpg",
+  },
+  {
+    id: 12,
+    title: "דניאלה תות",
+    count: 0,
+    image: process.env.PUBLIC_URL + "/images/12.jpg",
+  },
+  {
+    id: 13,
+    title: "דניאלה תות בננה",
+    count: 0,
+    image: process.env.PUBLIC_URL + "/images/13.jpg",
+  },
+  {
+    id: 14,
+    title: "מעדן הגולן שוקו",
+    count: 0,
+    image: process.env.PUBLIC_URL + "/images/14.jpg",
+  },
+  {
+    id: 15,
+    title: "מעדן הגולן וניל",
+    count: 0,
+    image: process.env.PUBLIC_URL + "/images/15.jpg",
+  },
+  {
+    id: 16,
+    title: "מעדן הגולן מריר",
+    count: 0,
+    image: process.env.PUBLIC_URL + "/images/16.jpg",
+  },
+  {
+    id: 17,
+    title: "מעדן פרו 11 שוקו",
+    count: 0,
+    image: process.env.PUBLIC_URL + "/images/17.jpg",
+  },
+  {
+    id: 18,
+    title: "מעדן פרו 11 וניל",
+    count: 0,
+    image: process.env.PUBLIC_URL + "/images/18.jpg",
+  },
+  {
+    id: 19,
+    title: "דני שוקו",
+    count: 0,
+    image: process.env.PUBLIC_URL + "/images/19.jpg",
+  },
+  {
+    id: 20,
+    title: "דני וניל",
+    count: 0,
+    image: process.env.PUBLIC_URL + "/images/20.jpg",
+  },
+  {
+    id: 21,
+    title: "מעדן שטראוס 0.5%",
+    count: 0,
+    image: process.env.PUBLIC_URL + "/images/21.jpg",
+  },
+  {
+    id: 22,
+    title: "מעדן שטראוס 0%",
+    count: 0,
+    image: process.env.PUBLIC_URL + "/images/22.jpg",
+  },
+];
+
+export default itemsData;

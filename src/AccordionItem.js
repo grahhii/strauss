@@ -1,7 +1,7 @@
-// AccordionItem.js
 import React from "react";
+import "./AccordionItem.css";
 
-const AccordionItem = ({ item, setItems }) => {
+const AccordionItem = ({ item, setItems, className }) => {
   const handleIncrement = () => {
     setItems((prevItems) =>
       prevItems.map((prevItem) =>
@@ -23,12 +23,19 @@ const AccordionItem = ({ item, setItems }) => {
   };
 
   return (
-    <div className="accordion-item">
-      <p>{item.title}</p>
+    <div className={className}>
+      <img src={item.image} alt={item.title} width="35" height="35" />
+      <div>{item.title}</div>
+
       <div className="counter">
-        <p>כמות: {item.count}</p>
-        <button onClick={handleIncrement}>+</button>
-        <button onClick={handleDecrement}>-</button>
+        <p className="number">{item.count}</p>
+        <button className="button1" onClick={handleDecrement}>
+          -
+        </button>
+
+        <button className="button2" onClick={handleIncrement}>
+          +
+        </button>
       </div>
     </div>
   );
